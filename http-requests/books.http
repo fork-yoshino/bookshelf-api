@@ -1,0 +1,29 @@
+### Read all
+http://localhost:3000/api/books
+
+### Read one
+http://localhost:3000/api/books/633471d481d8ae4ba04fbca9
+
+### Create
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "テストデータ",
+  "description": "説明欄の内容です。",
+  "comment": "コメントの内容です。",
+  "rating": 2
+}
+
+### Update
+PATCH http://localhost:3000/api/books/63a47981ee299db35aa33d96
+Content-Type: application/json
+
+{
+  "title": "テストデータ3",
+  "description": "説明欄の内容です。3",
+  "comment": "コメントの内容です。3"
+}
+
+### Delete
+DELETE http://localhost:3000/api/books/6348cb2360bfbbb3b24b6ffc
